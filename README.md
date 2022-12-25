@@ -53,7 +53,7 @@ Output for the both methods
 
 ## CONCLUSION 
 
-	In this project, we presented an asthma risk prediction tool based on a convolutional neural network. The PEFR readings are predicted using simple PM and weather data. The performance improvement of the proposed method is observed using objective evaluations. This cost-effective tool involves an edge device, sensors and an IoT platform. The entire tool is implemented on a smartphone as application using several resources of IoT. The tool can be successfully used to predict asthma risk of individual patients.
+In this project, we presented an asthma risk prediction tool based on a convolutional neural network. The PEFR readings are predicted using simple PM and weather data. The performance improvement of the proposed method is observed using objective evaluations. This cost-effective tool involves an edge device, sensors and an IoT platform. The entire tool is implemented on a smartphone as application using several resources of IoT. The tool can be successfully used to predict asthma risk of individual patients.
 
 ## CONTACT
 
