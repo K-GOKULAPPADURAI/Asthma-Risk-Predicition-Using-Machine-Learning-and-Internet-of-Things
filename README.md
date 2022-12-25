@@ -1,13 +1,15 @@
 # Asthma-Predicition-Using-Machine-Learning-and-Internet-of-Things
 
-#ABSTRACT 
-            In this project, we present an asthma risk prediction tool based on machine learning. The entire tool is implemented on a smartphone as a mobile-health application using the resources of Internet-of-Things (IoT). Peak Expiratory Flow Rates (PEFR) are commonly measured using external instruments such as peak flow meters and are well known asthma risk predictors. In this work, we find a correlation between the particulate matter found indoors and the outside weather with the PEFR. Convolutional neural network architecture is used to map the relationship between the indoor PM and weather data to the PEFR values.
+##ABSTRACT 
+            In this project, we present an asthma risk prediction tool based on machine learning. The entire tool is implemented on a smartphone as a mobile-health application using the resources of Internet-of-Things (IoT). **Peak Expiratory Flow Rates (PEFR)** are commonly measured using external instruments such as peak flow meters and are well known asthma risk predictors. In this work, we find a correlation between the particulate matter found indoors and the outside weather with the PEFR. Convolutional neural network architecture is used to map the relationship between the indoor PM and weather data to the PEFR values.
+            
+	    The proposed method is compared with the state-of-the-art deep neural network-based techniques in terms of the root mean square and mean absolute error accuracy measures. These performance measures are better for the proposed method than other methods discussed in the literature surveys. The entire setup is implemented on a smartphone as an app. An IoT system including a Raspberry Pi is used to collect the input data. This assistive tool can be a cost-effective tool for predicting the risk of asthma attacks.
 
-            The proposed method is compared with the state-of-the-art deep neural network-based techniques in terms of the root mean square and mean absolute error accuracy measures. These performance measures are better for the proposed method than other methods discussed in the literature. The entire setup is implemented on a smartphone as an app. An IoT system including a Raspberry Pi is used to collect the input data. This assistive tool can be a cost-effective tool for predicting the risk of asthma attacks.
-#OBJECTIVE
-       In this section, we discuss the proposed asthma risk prediction method. The data and the deep learning network used for the model training are discussed. The block diagram of the proposed system is shown. The weather data and the indoor air pollution characterized by PM2.5 and PM10 data are the input to the Deep learning model and the peak expiratory flow rate (PEFR) provides the labels used in training the model. we discuss the tools and the steps involved in IoT implementation. The real-time data collection, the utilization of the data and the smartphone app are explained in this section.
+##OBJECTIVE
 
-#ALGORITHM :
+       In this section, we discuss the proposed asthma risk prediction method. The data and the deep learning network used for the model training are discussed. The block diagram of the proposed system is shown. The weather data and the indoor air pollution characterized by **PM2.5 and PM10** data are the input to the Deep learning model and the peak expiratory flow rate (PEFR) provides the labels used in training the model. we discuss the tools and the steps involved in IoT implementation. The real-time data collection, the utilization of the data and the smartphone app are explained in this section.
+
+##ALGORITHM :
 
 Algorithm explaining the proposed system working in real-time 
 Input: PM2.5, PM10, outdoor temperature, humidity. 
