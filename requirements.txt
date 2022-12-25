@@ -1,0 +1,7 @@
+kivymd
+kivy
+pandas
+sklearn
+scikit-learn
+requests
+beautifulsoup4
