@@ -58,7 +58,7 @@ To run the application locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/K-GOKULAPPADURAI/Asthma-Risk-Predicition-Using-Machine-Learning-and-Internet-of-Things](https://github.com/K-GOKULAPPADURAI/Asthma-Risk-Predicition-Using-Machine-Learning-and-Internet-of-Things)
+    git clone https://github.com/K-GOKULAPPADURAI/Asthma-Risk-Predicition-Using-Machine-Learning-and-Internet-of-Things
     ```
 
 2. Install the required dependencies:
