@@ -51,6 +51,33 @@ Output for the both methods
 
 ![image](https://user-images.githubusercontent.com/77343301/209463449-63218158-f066-4f6e-970b-bd1930fe5fda.png)
 
+## Usage
+
+To run the application locally, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone [https://github.com/K-GOKULAPPADURAI/Asthma-Risk-Predicition-Using-Machine-Learning-and-Internet-of-Things](https://github.com/K-GOKULAPPADURAI/Asthma-Risk-Predicition-Using-Machine-Learning-and-Internet-of-Things)
+    ```
+
+2. Install the required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the Kivy application with sensor inputs:
+
+    ```bash
+    python main.py
+    ```
+4. For Running the Kivy application with location as input:
+
+    ```bash
+    python main1.py
+    ```
+
 ## CONCLUSION 
 
 In this project, we presented an asthma risk prediction tool based on a convolutional neural network. The PEFR readings are predicted using simple PM and weather data. The performance improvement of the proposed method is observed using objective evaluations. This cost-effective tool involves an edge device, sensors and an IoT platform. The entire tool is implemented on a smartphone as application using several resources of IoT. The tool can be successfully used to predict asthma risk of individual patients.
