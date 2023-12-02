@@ -5,8 +5,7 @@ from kivymd.uix.button import MDRectangleFlatButton
 from kivy.lang import Builder
 from kivy.core.window import Window
 import random
-import pandas as pd
-from sklearn.tree import DecisionTreeClassifier as dtc
+import joblib
 import requests
 from bs4 import BeautifulSoup
 
