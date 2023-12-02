@@ -16,7 +16,7 @@ MDTextField:
     
     hint_text: "Enter city of locating "
     hint_text_size:30
-    helper_text: "must be an integer"
+    helper_text: "check the spelling"
     helper_text_mode: "on_focus"
     icon_right: "language-python"
     icon_right_color: app.theme_cls.primary_color
