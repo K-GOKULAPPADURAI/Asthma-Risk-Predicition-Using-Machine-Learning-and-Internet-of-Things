@@ -4,6 +4,7 @@ from kivymd.uix.label import MDLabel
 from kivymd.uix.button import MDRectangleFlatButton
 from kivy.lang import Builder
 from kivy.core.window import Window
+import joblib
 #Window.size=(320,600)
 username_input="""
 MDTextField:
@@ -90,10 +91,7 @@ MDTextField:
     width:400
 """
 def predicter(g,p,q,r,s,actual_pefr):
-    import pandas as pd
-    from sklearn.tree import DecisionTreeClassifier as dtc
-    import joblib
-    model = joblib.load('PEFR_predictor.joblib')
+    model = joblib.load('decision_tree_model.joblib')
     prediction = model.predict([[g,p,q,r,s]])
     predicted_pefr = prediction[0]
     print(predicted_pefr)
