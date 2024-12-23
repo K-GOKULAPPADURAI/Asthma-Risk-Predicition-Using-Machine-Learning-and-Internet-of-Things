@@ -1,7 +1,6 @@
 kivymd
 kivy
 pandas
-sklearn
-scikit-learn
+scikit-learn==1.3.0
 requests
 beautifulsoup4
